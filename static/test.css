@@ -1,0 +1,44 @@
+body    {
+    font-family: verdana;
+    background-color: powderblue;
+    /* font-size: 300%; */
+}
+
+h1    {
+    color: blue;
+    font-size: 200%;
+    border: 2px solid #032b30;
+}
+
+p    {
+    /* color: red; */
+    font-size: 120%;
+}
+
+img    {
+    /* float:left; */
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

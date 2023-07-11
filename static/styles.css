@@ -1,0 +1,80 @@
+body {
+    /* font-family: verdana; */
+    /* background-color: powderblue; */
+    /* font-size: 300%; */
+}
+
+.block {
+    /* display: block; */
+    /* padding: 5%; */
+    text-align:center;
+    /* height:100%;
+    width:100%;
+    max-width:100%; */
+}
+
+.center-h-v {
+    text-align: center;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    height:100%;
+    width:100%;
+}
+
+/* footer    {
+    background-color: #595959;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+} */
+
+/* .bottom-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 10px;
+  text-align: center;
+}
+
+.whole-cover    {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+ */
+.top-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%; /* Adjust the height as needed */
+    /* background-color: #f2f2f2; */
+}
+
+.bottom-element {
+    position:fixed;
+    /* margin-top: calc(50% + 10px); /* Adjust the margin as needed */ 
+    height: 10%;/* Adjust the height as needed */
+    bottom:0;
+    left: 0;
+    background-color: #707070;
+    width:100%;
+    text-align:center;
+}
+
+.form-box{
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding:3%;
+    align-content:center;
+}
+
+.bkgrnd {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

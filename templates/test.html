@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Test Page</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='/favicon.ico') }}" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <style>
+        
+        body {
+            background-color: powderblue;
+        }
+        h1   {
+            color: blue;
+        }
+        p    {
+            color: red;
+        }
+        
+    </style> -->
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='test.css') }}">
+    
+</head>
+<body style="background-color:#ccccff; text-align:center;">
+
+    <hr id="top">
+    
+    <p><a href="#bottom">Jump down.</a></p>
+
+    <hr>
+
+    <h1 title="It's title attribute">This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    
+    <hr>
+    
+    <p>This is a paragraph.</p>
+    <p>This is<br>another paragraph.</p>
+    
+    <hr>
+    
+    <p>This is a <a href="https://serverwithpython.dhimancomputing.repl.co/">link</a>.</p>
+    
+    
+    <img src="static/images/test001.jpg" alt="Alt text" width="200" height="250">
+
+    <hr>
+
+    <pre>
+        The HTML &lt;pre&gt;
+        element defines preformatted text.
+        It's a preformatted text
+        which is given as an example.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus porttitor 
+        augue. Nunc a ipsum at magna laoreet vulputate. Proin feugiat nulla id felis maximus 
+        euismod. Vestibulum luctus nibh ac mauris gravida pretium. Duis gravida id metus ac 
+        blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
+        inceptos himenaeos. Etiam vulputate ipsum ut nibh mollis lobortis. Sed pharetra ante
+        ligula. Proin mollis dui eros, eget blandit nibh blandit eu. Fusce quis massa et nibh 
+        semper placerat.
+    </pre>
+
+    <hr>
+
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+
+    <hr>
+
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <hr>
+    
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <hr>
+
+    <address>
+    Written by John Doe.<br>
+    Visit us at:
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+
+    <hr>
+
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+    <hr>
+
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+
+    <hr>
+
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+    <p style="background-color:Tomato;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </p>
+
+    <hr>
+
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+    <hr>
+
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+    <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border:2px solid Violet;">Hello World</h1>
+
+    <hr>
+
+    <p>Same as color name "Tomato":</p>
+
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <p>Same as color name "Tomato", but 50% transparent:</p>
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+    <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+    <hr>
+
+    <a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_top">Visit W3Schools!</a>
+
+    <hr>
+
+    
+
+    <hr id="bottom">
+
+    <p><a href="#top">Jump up.</a></p>
+</body>
+</html>

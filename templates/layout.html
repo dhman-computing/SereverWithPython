@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!-- Layout for all the webpages -->
+
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>{% block title %}My Website{% endblock %}</title>
+        <link rel="icon" href="{{ url_for('static', filename='/favicon.ico') }}" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        
+    </head>
+    <body>
+
+        <div class="top-element">
+        
+        {% block body %}{% endblock %}
+
+        </div>
+            
+        <div class="bottom-element">
+            <p>&copy;Dhiman. All rights reserved.</p>
+        </div>
+        
+        
+    </body>
+</html>
